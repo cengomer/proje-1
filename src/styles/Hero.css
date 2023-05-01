@@ -1,0 +1,46 @@
+.hero__header { 
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 12rem;
+    flex-direction: column;
+}
+.hero__wrapper { 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: #333333;
+    font-weight: 600;
+}
+.hero__wrapper .header__me { 
+    font-size: 30px;
+}
+.header__img img { 
+    width: 500px;
+    height: 100%;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.header__svg { 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__svg svg { 
+    width: 35px;
+    position: absolute;
+    top: 90%;
+}

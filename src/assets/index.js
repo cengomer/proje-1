@@ -1,0 +1,1 @@
+export {default as omer} from './omus.png'

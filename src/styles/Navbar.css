@@ -1,0 +1,62 @@
+.header {
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .navs_container {
+    display: flex;
+  }
+  
+  .navs {
+    margin-right: 20px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  
+  .buttons a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+border: 1px solid #FCA311;
+padding-left:10px;
+padding-right:10px;
+border-radius: 5px;
+
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .navs_container {
+      display: none;
+    }
+  
+    .buttons {
+      margin-left: auto;
+    }
+  
+    .buttons a:nth-child(0) {
+      margin-right: 10px;
+    }
+  }
+  
