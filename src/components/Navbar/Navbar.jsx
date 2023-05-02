@@ -11,7 +11,7 @@ const Navbar = () => {
           </div>
           <div className='navs_container'>
             {['ANA SAYFA', 'HAKKIMDA', 'ILGILI ALANLARIM'].map((nav, index) => (
-              <a key={index} className='navs'>
+              <a key={index} className='navs' href={`#${nav.replace(/\s+/g, '')}`}>
                 {nav}
               </a>
             ))}
