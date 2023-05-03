@@ -17,7 +17,7 @@ const Navbar = () => {
             ))}
           </div>
           <div className='buttons'>
-            <a>CV</a>
+            <a href='#Cv'>CV</a>
             <a>ŞEHRİM</a>
           </div>
         </div>
