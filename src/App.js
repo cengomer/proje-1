@@ -1,3 +1,4 @@
+import Gaziantep from './components/Gaziantep/Gaziantep';
 import { About, Country, Cv, Hero, Interests, Navbar } from './components/imports';
 import { Routes, Route, useLocation } from 'react-router-dom';
 
@@ -17,6 +18,7 @@ function App() {
           <Interests/>
           <Cv/>
           <Country/>
+          <Gaziantep/>
         </div>
       )}
     </div>

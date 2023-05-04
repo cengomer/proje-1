@@ -4,6 +4,7 @@ import '../../styles/Country.css'
 import CountUp from 'react-countup';
 
 
+
 function Country() {
   const boxesRef = useRef(null);
   const stageRef = useRef(null);
@@ -38,9 +39,9 @@ function Country() {
   }, []);
 
   return (
-    <div className="w-full h-full flex justify-center items-center flex-col mt-10 text-[#333333]">
-    <h1 className="text-[30px] mt-5">Şehrim</h1>
-    <h1 className="text-[#FFD700] text-[30px] mt-5">Gaziantep</h1>
+    <div className="w-full h-full flex justify-center items-center flex-col mt-10 text-[#333333]" id="ŞEHRİM">
+    <h1 className="text-[30px] text-gray-200 mt-5">Şehrim</h1>
+    <h1 className="text-[#fff] text-[30px] mt-5">Gaziantep</h1>
       <div class="demoWrapper">
   <div class="stage" ref={boxesRef}>
     <div class="box">
@@ -69,9 +70,9 @@ function Country() {
 </div>
 
 <div className="w-full h-full flex justify-center items-center flex-col absolute">
-<h1 className="text-[30px] text-[#FFD700]"> Gaziantep Nüfusu : </h1>
-<p> 2021 yılına ait Gaziantep nüfusu Tahmini Türkiye İstatistik Kurumu (TÜİK) verilerine göre </p>
-<span className="text-[40px] mt-5"><CountUp
+<h1 className="text-[30px] text-[#fff]"> Gaziantep Nüfusu : </h1>
+<p className="text-gray-200"> 2021 yılına ait Gaziantep nüfusu Tahmini Türkiye İstatistik Kurumu (TÜİK) verilerine göre </p>
+<span className="text-[40px] mt-5 text-white"><CountUp
   start={0}
   end={2106000}
   duration={20.75}
