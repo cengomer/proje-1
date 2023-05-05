@@ -1,6 +1,7 @@
 import Gaziantep from './components/Gaziantep/Gaziantep';
 import { About, Country, Cv, Hero, Interests, Navbar } from './components/imports';
 import { Routes, Route, useLocation } from 'react-router-dom';
+import Login from '../src/Login/Login'
 
 function App() {
   const location = useLocation();
@@ -21,6 +22,7 @@ function App() {
           <Gaziantep/>
         </div>
       )}
+      <Login/>
     </div>
   );
 }
