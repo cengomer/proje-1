@@ -45,3 +45,7 @@ color: #8B0000;
     height: 100%;
     border-radius: 5px;
 }
+
+@media screen and (max-width:750px) {
+    
+}

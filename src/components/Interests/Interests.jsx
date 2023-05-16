@@ -80,7 +80,7 @@ function Interests() {
           {footballNews.map(article => (
             <div key={article.url}>
               
-              <div className='w-full h-full flex justify-cente items-center gap-20 mb-10'>
+              <div className='w-full h-full flex md:flex-row flex-col justify-center items-center gap-20 mb-10'>
               <img src={article.image} alt={article.title} />
               <div className='w-full h-full flex justify-center items-center flex-col text-center'>
               <h4 className='font-bold'>{article.title}</h4>
