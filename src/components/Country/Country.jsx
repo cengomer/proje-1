@@ -23,9 +23,9 @@ function Country() {
     boxes.forEach((box, index) => {
       gsap.set(box, {
         css: {
-          rotationY: (index * 360) / 13,
+          rotationY: (index * 360) / 6,
           transformOrigin: "50% 50% -420",
-        },
+                },
       });
       TweenMax.to(box, 20, {
         css: {
@@ -43,7 +43,7 @@ function Country() {
     <h1 className="text-[30px] text-gray-200 mt-5">Şehrim</h1>
     <h1 className="text-[#fff] text-[30px] mt-5">Gaziantep</h1>
       <div class="demoWrapper">
-  <div class="stage" ref={boxesRef}>
+  <div className="stage" ref={boxesRef}>
     <div class="box">
       <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/1f/85/d1/gaziantep-oyuncak-muzesi.jpg?w=300&h=300&s=1" width="285" height="285"/>
     </div>
@@ -71,7 +71,7 @@ function Country() {
 
 <div className="w-full h-full flex justify-center items-center flex-col absolute">
 <h1 className="text-[30px] text-[#fff]"> Gaziantep Nüfusu : </h1>
-<p className="text-gray-200"> 2021 yılına ait Gaziantep nüfusu Tahmini Türkiye İstatistik Kurumu (TÜİK) verilerine göre </p>
+<p className="flex justify-center items-center  text-center text-gray-200"> 2021 yılına ait Gaziantep nüfusu Tahmini Türkiye İstatistik Kurumu (TÜİK) verilerine göre </p>
 <span className="text-[40px] mt-5 text-white"><CountUp
   start={0}
   end={2106000}

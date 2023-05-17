@@ -33,3 +33,17 @@
   border:1px solid #DDD;
   outline:0 solid transparent;
 }
+
+
+@media screen and (max-width:750px) {
+  .box {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: #06f;
+    display: inline-block;
+    margin: 0px 0px 0px -50px; 
+    display: inline-block;
+    overflow:hidden;
+  }
+}
