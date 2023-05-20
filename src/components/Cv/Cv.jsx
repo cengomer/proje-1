@@ -15,9 +15,9 @@ const Cv = () => {
 <p className='text-gray-200'>Haziran 2018 - Şubat 2022</p>
 <h3 className='text-[30px] mt-5'>Açık Öğretim Lisesi</h3>
 <p className='text-gray-200'>Şubat 2022 - Mart 2022</p>
-<li className='text-[24px] text-[#333333 ] mt-10'>Üniversite Eğitimi</li>
+<li className='text-[24px] text-[#333333 ] mt-5'>Üniversite Eğitimi</li>
 <h3 className='text-[30px] mt-5'>Sakarya Üniversitesi</h3>
-<p className='text-gray-200'>Ekim 2022 - Günümüz</p>
+<p className='text-gray-200'><span className='text-white'>Bilgisayar Mühendisliği</span><br/>Ekim 2022 - Günümüz</p>
 </div>
 </header>
     </div>
